@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <fieldset class="main">
+        <h1>Dziennik praktyki zawodowej</h1>
+        <div id="menu">
+            <a href="index.html">Dane</a>
+            <a href="dziennik.html">Dziennik</a>
+            <a href="submit.html">Podsumowanie</a>
+        </div>
+        <form action="#">
+            
+        <div id="questions" class="">
+        <fieldset class="form">
+            <legend>informacje o praktyce</legend>
+            <label for="firstName">Imię: <input type="text" name="firstName" id="firstName" value="test"></label>
+            <label for="surName">Nazwisko: <input type="text" name="surName" id="surName"></label>
+            <label for="grade">Klasa: <input type="text" name="grade" id="grade"></label>
+            <label for="schoolYear">Rok szkolny: <input type="text" name="schoolYear" id="schoolYear"> </label>
+            <label for="company">Odbytej w firmie: <input type="text" name="company" id="company"></label>
+        </fieldset>
+        <fieldset>
+            <legend>czas trwania praktyki</legend>
+            <label for="startDate">Data rozpoczęcia <input type="date" name="startDate" id="startDate"></label>
+            <label for="endDate">Data zakończenia <input type="date" name="endDate" id="endDate"></label>
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+    </div>
+        
+      
+        <div id="displays" class="hidden">
+        <p id="display1"></p>
+        <p id="display2"></p>
+        <p id="display3"></p>
+        <p id="display4"></p>
+        <button id="back">Powrót</button>
+        </div>
+    </form>
+    </fieldset>
+    
+</body>
+</html>
